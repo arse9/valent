@@ -6,8 +6,8 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Wrapped for TikTok",
-  description: "Get insights into your time on TikTok 🚀",
+  title: "Kjære Linni ❤️",
+  description: "Dette er en spesiell dag for begge.",
 };
 
 const PLAUSIBLE_EVENTS =
