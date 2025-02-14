@@ -191,12 +191,19 @@ function TikTokWrappedAppPage() {
 
 {page === "play" && (
   <WrappedPlayerComponent
-    statistics={{}} // Use an empty object for now if statistics is required
+    statistics={{
+      name: "User Name", // Example name
+      videoAmountWatched: 10, // Example value for the number of videos watched
+      watchSessions: 5, // Example value for the number of watch sessions
+      comments: 20, // Example value for the number of comments
+      // Add other properties as needed
+    }}
     persona={{}} // Add your persona data here
     spotify={null} // Add the Spotify player logic here
     wrapped={{}} // Add your wrapped data here
   />
 )}
+
     </div>
   );
 }
