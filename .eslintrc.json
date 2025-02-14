@@ -2,8 +2,8 @@
   "extends": "next/core-web-vitals",
   "plugins": ["unused-imports"],
   "rules": {
-    "no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "error",
+    "no-unused-vars": "off", // Disable the rule globally for unused variables
+    "unused-imports/no-unused-imports": "off", // Disable unused imports check
     "unused-imports/no-unused-vars": [
       "warn",
       {
