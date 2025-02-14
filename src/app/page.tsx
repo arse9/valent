@@ -203,9 +203,9 @@ function TikTokWrappedAppPage() {
 
 {page === "play" && (
   <WrappedPlayerComponent
-    statistics={null} // or {} to pass an empty object
+    statistics={{}} // Use an empty object for now if statistics is required
     persona={{}} // Add your persona data here
-    spotify={null} // Add the spotify player logic here
+    spotify={null} // Add the Spotify player logic here
     wrapped={{}} // Add your wrapped data here
   />
 )}
