@@ -26,6 +26,7 @@ function TikTokWrappedAppPage() {
   const [currentParagraph, setCurrentParagraph] = React.useState(0);
 
   const paragraphs = [
+    "Vennligst sett på spillelisten under denne boksen of deretter trykk 'Neste',
     "Min kjære Linni, Jenta mi, Pusi,​‍​​​‍​​​‍​​​‍​​",  
     "I dag er det Valentinsdag, og jeg sitter her og prøver å finne ord som kan beskrive hvor mye du betyr for meg.​‍​​​‍​​​‍​​",  
     "Og helt ærlig? Jeg vet ikke om det finnes nok ord i verden til å gjøre det rettferdig.​‍​​​‍​​​‍​​",  
